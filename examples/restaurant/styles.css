@@ -52,3 +52,7 @@ a{color:var(--text)}
   .card p,.card a{word-break:break-word}
   .grid{gap:10px}
 }
+
+.menu-btn{font-size:28px!important;padding:10px 14px!important;min-width:52px;min-height:52px;display:flex;align-items:center;justify-content:center}
+@media (max-width:760px){.menu-btn{font-size:32px!important;min-width:56px;min-height:56px}}
+.brand-logo{height:46px;width:auto;max-width:220px}
