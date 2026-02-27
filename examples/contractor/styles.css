@@ -8,3 +8,6 @@ h1{font-size:clamp(2rem,5vw,3.4rem)}.btn{display:inline-block;background:var(--a
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{background:var(--panel);border:1px solid #334155;border-radius:12px;padding:15px}
 footer{border-top:1px solid #334155;padding:26px 0}.foot{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:15px}
 @media(max-width:850px){.grid,.foot{grid-template-columns:1fr}}
+
+.brand-logo{height:40px;width:auto;display:block}.nav nav{display:flex;flex-wrap:wrap;gap:8px}.nav nav a{white-space:nowrap}
+@media(max-width:700px){.top,.topbar{font-size:.8rem}.nav{align-items:flex-start;gap:8px}.brand-logo{height:34px}.hero{padding:64px 0}h1{line-height:1.1}.btn,.btn-ghost{padding:10px 13px}.nav nav{gap:6px}.nav nav a{font-size:.92rem;margin-left:0}}

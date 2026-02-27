@@ -6,3 +6,6 @@ h1{font-size:clamp(2.1rem,5vw,3.6rem)}.btn{background:var(--accent);color:#fff;p
 .menu{display:grid;grid-template-columns:2fr 1fr;gap:18px;padding:42px 0}.card{background:#fff;border:1px solid var(--line);padding:16px;border-radius:12px}
 footer{border-top:1px solid var(--line);padding:24px 0;margin-top:20px}.cols{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
 @media(max-width:850px){.menu,.cols{grid-template-columns:1fr}}
+
+.brand-logo{height:40px;width:auto;display:block}.nav nav{display:flex;flex-wrap:wrap;gap:8px}.nav nav a{white-space:nowrap}
+@media(max-width:700px){.top,.topbar{font-size:.8rem}.nav{align-items:flex-start;gap:8px}.brand-logo{height:34px}.hero{padding:64px 0}h1{line-height:1.1}.btn,.btn-ghost{padding:10px 13px}.nav nav{gap:6px}.nav nav a{font-size:.92rem;margin-left:0}}
