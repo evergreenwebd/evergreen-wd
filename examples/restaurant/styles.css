@@ -36,3 +36,19 @@ form{display:grid;gap:10px}
  .grid,.footer-grid{grid-template-columns:1fr}
  .hero{padding:64px 0}
 }
+
+
+/* polish pass */
+a{color:var(--text)}
+.card a{color:var(--accent);font-weight:600}
+.card a:hover{text-decoration:underline}
+.menu-btn{font-size:20px;line-height:1;padding:6px 10px}
+@media (max-width:760px){
+  .header{position:sticky;top:0}
+  .nav{padding:10px 0}
+  .menu-btn{border-radius:10px}
+  .links{border-radius:0 0 12px 12px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+  .card{padding:14px}
+  .card p,.card a{word-break:break-word}
+  .grid{gap:10px}
+}
