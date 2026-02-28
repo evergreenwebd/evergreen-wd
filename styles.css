@@ -17,3 +17,5 @@
 .site-footer{padding:28px 0 16px;border-top:1px solid rgba(255,255,255,.1);background:rgba(0,0,0,.15)}.foot-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:18px}.foot-title{font-weight:800;color:#fff;margin-bottom:6px}.foot-grid p{margin:6px 0}.foot-grid a{color:#d7ede5;text-decoration:none}.foot-grid a:hover{text-decoration:underline}.foot-bottom{margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,.12);color:#c2d8d0}
 @media (max-width:920px){.hero-grid,.split{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.trust{grid-template-columns:1fr}.foot-grid{grid-template-columns:1fr 1fr}}
 @media (max-width:680px){.menu-btn{display:block}.menu{display:none;position:absolute;top:58px;left:0;right:0;background:#0d2d27;padding:14px;flex-direction:column;border-bottom:1px solid rgba(255,255,255,.1)}.menu.open{display:flex}.cards,.steps,.foot-grid{grid-template-columns:1fr}.hero{padding-top:56px}.map-wrap iframe{height:260px}}
+
+.example-chip{display:inline-block;background:#facc15;color:#1f2937;font-weight:800;font-size:.72rem;padding:4px 8px;border-radius:999px;margin-bottom:8px}
