@@ -18,5 +18,5 @@
 @media (max-width:920px){.hero-grid,.split{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.trust{grid-template-columns:1fr}.foot-grid{grid-template-columns:1fr 1fr}}
 @media (max-width:680px){.menu-btn{display:block}.menu{display:none;position:absolute;top:58px;left:0;right:0;background:#0d2d27;padding:14px;flex-direction:column;border-bottom:1px solid rgba(255,255,255,.1)}.menu.open{display:flex}.cards,.steps,.foot-grid{grid-template-columns:1fr}.hero{padding-top:56px}.map-wrap iframe{height:260px}}
 
-.example-chip{display:inline-block;float:right;background:#fde047;color:#111827;border:2px solid #111827;font-weight:800;font-size:.74rem;padding:5px 10px;border-radius:8px;box-shadow:0 2px 0 #111827;margin-bottom:8px;text-transform:uppercase;letter-spacing:.02em}
-.projects .card h3{clear:both}
+.projects .card{position:relative;padding-top:42px}
+.example-chip{position:absolute;top:12px;right:12px;display:inline-block;background:#fde047;color:#111827;border:2px solid #111827;font-weight:800;font-size:.74rem;padding:5px 10px;border-radius:8px;box-shadow:0 2px 0 #111827;text-transform:uppercase;letter-spacing:.02em}
