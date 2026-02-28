@@ -23,3 +23,20 @@
 
 .projects.cards .card{position:relative !important;padding-top:46px !important}
 .projects.cards .card .example-badge{position:absolute !important;top:12px !important;right:12px !important;left:auto !important;display:inline-block !important;background:rgba(249,115,22,0.30) !important;color:#ffedd5 !important;border:2px solid #f97316 !important;font-weight:800 !important;font-size:.74rem !important;padding:5px 10px !important;border-radius:10px !important;text-transform:uppercase !important;letter-spacing:.02em !important;box-shadow:0 6px 14px rgba(249,115,22,.22) !important}
+
+
+/* global polish: spacing + link colors */
+body{line-height:1.65}
+h1,h2,h3{margin:0 0 .65rem}
+p{margin:.45rem 0 1rem}
+.section{padding:60px 0}
+.card{padding:20px}
+a{color:inherit}
+a:visited{color:inherit}
+a:hover{opacity:.92}
+.links a,.footer a,.foot-grid a,.card a{color:inherit}
+@media (max-width:760px){
+  .section{padding:42px 0}
+  .card{padding:16px}
+  .container{width:min(1100px,94%)}
+}

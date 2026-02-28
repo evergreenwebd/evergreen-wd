@@ -40,3 +40,20 @@ input,textarea,select{width:100%;padding:11px;border-radius:8px;border:1px solid
 .faq-item{background:#0f2533;border:1px solid var(--line);border-radius:12px;padding:14px}
 .faq-item h3{margin:.2rem 0 .5rem}
 @media(max-width:760px){.feature-list{grid-template-columns:1fr}.info-shell{padding:14px}}
+
+
+/* global polish: spacing + link colors */
+body{line-height:1.65}
+h1,h2,h3{margin:0 0 .65rem}
+p{margin:.45rem 0 1rem}
+.section{padding:60px 0}
+.card{padding:20px}
+a{color:inherit}
+a:visited{color:inherit}
+a:hover{opacity:.92}
+.links a,.footer a,.foot-grid a,.card a{color:inherit}
+@media (max-width:760px){
+  .section{padding:42px 0}
+  .card{padding:16px}
+  .container{width:min(1100px,94%)}
+}

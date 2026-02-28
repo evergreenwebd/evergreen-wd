@@ -77,3 +77,20 @@ a{text-underline-offset:2px}
   .links .cta{width:100%;text-align:center}
   .footer{padding:22px 0 12px}
 }
+
+
+/* global polish: spacing + link colors */
+body{line-height:1.65}
+h1,h2,h3{margin:0 0 .65rem}
+p{margin:.45rem 0 1rem}
+.section{padding:60px 0}
+.card{padding:20px}
+a{color:inherit}
+a:visited{color:inherit}
+a:hover{opacity:.92}
+.links a,.footer a,.foot-grid a,.card a{color:inherit}
+@media (max-width:760px){
+  .section{padding:42px 0}
+  .card{padding:16px}
+  .container{width:min(1100px,94%)}
+}
