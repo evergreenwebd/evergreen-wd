@@ -56,3 +56,24 @@ a{color:var(--text)}
 .menu-btn{font-size:28px!important;padding:10px 14px!important;min-width:52px;min-height:52px;display:flex;align-items:center;justify-content:center}
 @media (max-width:760px){.menu-btn{font-size:32px!important;min-width:56px;min-height:56px}}
 .brand-logo{height:46px;width:auto;max-width:220px}
+
+
+/* final polish */
+html{-webkit-text-size-adjust:100%}
+a{text-underline-offset:2px}
+.links a{opacity:.92}.links a:hover{opacity:1}
+.hero p{font-size:1.04rem}
+.card h3{margin-top:0}
+.footer-grid p{margin:.35rem 0}
+.copy{font-size:.86rem}
+@media (max-width:760px){
+  .topbar .container{padding:6px 0;font-size:.78rem}
+  .header{backdrop-filter:blur(4px)}
+  .hero h1{font-size:clamp(1.65rem,9vw,2.2rem)}
+  .hero p{font-size:.98rem}
+  .section{padding:36px 0}
+  .links{gap:8px}
+  .links a{font-size:1rem}
+  .links .cta{width:100%;text-align:center}
+  .footer{padding:22px 0 12px}
+}
