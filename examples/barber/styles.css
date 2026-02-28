@@ -57,3 +57,11 @@ a:hover{opacity:.92}
   .card{padding:16px}
   .container{width:min(1100px,94%)}
 }
+
+
+/* animations */
+.reveal-on-load{opacity:0;transform:translateY(16px) scale(.98);animation:revealUp .7s ease forwards}
+.reveal-delay-1{animation-delay:.08s}.reveal-delay-2{animation-delay:.16s}.reveal-delay-3{animation-delay:.24s}.reveal-delay-4{animation-delay:.32s}
+@keyframes revealUp{to{opacity:1;transform:translateY(0) scale(1)}}
+.hero h1{animation:fadeGlow .9s ease both}
+@keyframes fadeGlow{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
