@@ -20,5 +20,6 @@
 
 .projects .card{position:relative;padding-top:42px}
 
-.projects .card{position:relative;padding-top:44px}
-.example-badge{position:absolute;top:12px;right:12px;display:inline-block;background:rgba(251,146,60,.18);color:#fdba74;border:2px solid #f97316;font-weight:800;font-size:.74rem;padding:5px 10px;border-radius:10px;box-shadow:0 6px 14px rgba(249,115,22,.22);text-transform:uppercase;letter-spacing:.02em}
+
+.projects.cards .card{position:relative !important;padding-top:46px !important}
+.projects.cards .card .example-badge{position:absolute !important;top:12px !important;right:12px !important;left:auto !important;display:inline-block !important;background:rgba(249,115,22,0.30) !important;color:#ffedd5 !important;border:2px solid #f97316 !important;font-weight:800 !important;font-size:.74rem !important;padding:5px 10px !important;border-radius:10px !important;text-transform:uppercase !important;letter-spacing:.02em !important;box-shadow:0 6px 14px rgba(249,115,22,.22) !important}
