@@ -18,4 +18,5 @@
 @media (max-width:920px){.hero-grid,.split{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.trust{grid-template-columns:1fr}.foot-grid{grid-template-columns:1fr 1fr}}
 @media (max-width:680px){.menu-btn{display:block}.menu{display:none;position:absolute;top:58px;left:0;right:0;background:#0d2d27;padding:14px;flex-direction:column;border-bottom:1px solid rgba(255,255,255,.1)}.menu.open{display:flex}.cards,.steps,.foot-grid{grid-template-columns:1fr}.hero{padding-top:56px}.map-wrap iframe{height:260px}}
 
-.example-chip{display:inline-block;background:#facc15;color:#1f2937;font-weight:800;font-size:.72rem;padding:4px 8px;border-radius:999px;margin-bottom:8px}
+.example-chip{display:inline-block;float:right;background:#fb923c;color:#111827;font-weight:800;font-size:.72rem;padding:4px 10px;border-radius:999px;margin-bottom:8px}
+.projects .card h3{clear:both}
