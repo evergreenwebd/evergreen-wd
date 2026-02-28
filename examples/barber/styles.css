@@ -27,3 +27,16 @@ input,textarea,select{width:100%;padding:11px;border-radius:8px;border:1px solid
   .hero{padding:68px 0}
   .hero h1{font-size:clamp(1.8rem,9vw,2.5rem)}
 }
+
+
+/* greatclips-inspired structure (brand preserved) */
+.info-shell{background:#0b1b27;border:1px solid var(--line);border-radius:14px;padding:18px}
+.status-row{display:flex;gap:8px;flex-wrap:wrap;color:var(--muted);font-weight:600}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.tab-link{display:inline-block;padding:9px 12px;border-radius:999px;border:1px solid var(--line);background:#0d2432;color:var(--text);text-decoration:none;font-weight:700}
+.tab-link.active{background:rgba(245,158,11,.2);border-color:#f59e0b;color:#fbbf24}
+.feature-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.promo{background:#0d2230;border:1px solid var(--line);border-radius:12px;padding:16px}
+.faq-item{background:#0f2533;border:1px solid var(--line);border-radius:12px;padding:14px}
+.faq-item h3{margin:.2rem 0 .5rem}
+@media(max-width:760px){.feature-list{grid-template-columns:1fr}.info-shell{padding:14px}}
