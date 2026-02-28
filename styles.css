@@ -35,8 +35,11 @@ a{color:inherit}
 a:visited{color:inherit}
 a:hover{opacity:.92}
 .links a,.footer a,.foot-grid a,.card a{color:inherit}
-.values-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
-.value-card{background:rgba(18,57,47,.88);border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:18px;min-height:220px}
+.values-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.value-card{background:linear-gradient(180deg,rgba(9,30,44,.96),rgba(8,24,35,.96));border:1px solid rgba(83,119,148,.28);border-radius:18px;padding:20px;min-height:220px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.03)}
+.value-head{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.value-head h3{margin:0}
+.value-icon{width:40px;height:40px;border-radius:12px;display:inline-flex;align-items:center;justify-content:center;background:rgba(16,185,129,.14);border:1px solid rgba(16,185,129,.35);font-size:18px}
 
 @media (max-width:760px){
   .section{padding:42px 0}
